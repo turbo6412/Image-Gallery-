@@ -1,0 +1,20 @@
+body { /*gives us the space between navbar and jumbotron*/
+	padding-top: 70px; 
+}
+
+.jumbotron { /*changing text color and backgroundof jumbotron*/
+	color: #2c3e50; 
+	background: #ecf0f1; 
+}
+
+.navbar-inverse { /*changing color of navbar, couldve also just said navbar*/
+	background: #2c3e50; 
+}
+
+.navbar-inverse .navbar-nav>li>a { /*got this complicated class selector from inspect element*/
+	color: white; 					/*changing the selectors text color in navbar*/
+}
+
+.navbar-inverse .navbar-brand {			
+	color: white;				/*changing text color of brand in the navbar*/
+}	
